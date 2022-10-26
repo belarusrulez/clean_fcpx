@@ -21,5 +21,6 @@ do
     rm -rf $1/.fcpcache
 done
 cd ..
+rm -rf "$dir_name".zip
 echo "zip  --symlinks -r "$dir_name".zip "$dir_name""
 zip --symlinks -r "$dir_name".zip "$dir_name"
